@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Barber Shop</title>
+    <!-- Fonts style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700;800&display=swap"
+      rel="stylesheet" />
+    <!-- Custom style -->
+
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- /**
+     |============================
+     | Header
+     |============================
+   */ -->
+    <header class="header">
+      <a href="./index.html" class="header-logo link">
+        <svg atl="BarberShop logo" class="logo-image" width="76" height="76">
+          <use href="./images/svg/icons.svg#logo"></use>
+        </svg>
+      </a>
+      <nav class="header-nav">
+        <ul class="header-nav-list list">
+          <li class="header-nav-item">
+            <a href="" class="header-nav-link link">About</a>
+          </li>
+          <li class="header-nav-item"><a href="" class="header-nav-link link">Services and prices</a></li>
+          <li class="header-nav-item"><a href="" class="header-nav-link link">Barbers</a></li>
+          <li class="header-nav-item"><a href="" class="header-nav-link link">Contacts</a></li>
+        </ul>
+      </nav>
+      <a href="tel:+380441111111" class="header-contact link">+38 044 111 11 11</a>
+      <button type="button" class="header-btn">Online-booking</button>
+    </header>
+    <!-- /**
+      |============================
+      | Hero
+      |============================
+    */ -->
+    <main>
+      <section class="hero">
+        <ul class="hero-list-socialsbenefits-item-text list">
+          <li class="hero-item-social">
+            <a href="https://instagram.com" class="hero-social-link link" target="_blank" rel="noopener noreferrer"
+              >Instagram</a
+            >
+          </li>
+          <li class="hero-item-social">
+            <a href="https://youtube.com" class="hero-social-link link" target="_blank" rel="noopener noreferrer"
+              >Youtube</a
+            >
+          </li>
+        </ul>
+        <p class="hero-uppertitle">A hair salon for men in Kyiv</p>
+        <h1 class="hero-title">BarberShop</h1>
+        <p class="hero-subtitle">We are experts in trendy men’s haircuts. We work quickly, carefully and with style.</p>
+        <ul class="hero-btn-list list">
+          <li class="hero-btn-item"><button type="button" class="hero-btn-link link">Back</button></li>
+          <li class="hero-btn-item"><button type="button" class="hero-btn-link link">Forward</button></li>
+        </ul>
+      </section>
+      <!-- /**
+        |============================
+        | Section About
+        |============================
+      */ -->
+      <section class="about">
+        <ul class="about-list list">
+          <li class="about-item">
+            <picture class="about-img">
+              <source
+                media="(min-width: 1200px)"
+                srcset="./images/about/img-1_desk@1x.webp 1x, ./images/about/img-1_desk@2x.webp 2x"
+                type="image/webp" />
+              <source
+                media="(min-width: 1200px)"
+                srcset="./images/about/img-1_desk@1x.jpg 1x, ./images/about/img-1_desk@2x.jpg 2x"
+                type="image/jpg" />
+              <source
+                media="(min-width: 768px)"
+                srcset="./images/about/img-1_tab@1x.webp 1x, ./images/about/img-1_tab@2x.webp 2x"
+                type="image/webp" />
+              <source
+                media="(min-width: 768px)"
+                srcset="./images/about/img-1_tab@1x.jpg 1x, ./images/about/img-1_tab@2x.jpg 2x"
+                type="image/jpg" />
+              <img src="./images/about/img-1_tab@1x.jpg" alt="cream application" width="330" height="235"
+            /></picture>
+          </li>
+          <li class="about-item">
+            <picture class="about-img">
+              <source
+                media="(min-width: 1200px)"
+                srcset="./images/about/img-2_desk@1x.webp 1x, ./images/about/img-2_desk@2x.webp 2x"
+                type="image/webp" />
+              <source
+                media="(min-width: 1200px)"
+                srcset="./images/about/img-2_desk@1x.jpg 1x, ./images/about/img-2_desk@2x.jpg 2x"
+                type="image/jpg" />
+              <source
+                media="(min-width: 768px)"
+                srcset="./images/about/img-2_tab@1x.webp 1x, ./images/about/img-2_tab@2x.webp 2x"
+                type="image/webp" />
+              <source
+                media="(min-width: 768px)"
+                srcset="./images/about/img-2_tab@1x.jpg 1x, ./images/about/img-2_tab@2x.jpg 2x"
+                type="image/jpg" />
+              <img src="./images/about/img-2_tab@1x.jpg" alt="dangerous razor" width="330" height="235"
+            /></picture>
+          </li>
+        </ul>
+        <p class="about-uppertitle">About</p>
+        <h2 class="about-title">Best Barbershop in your city</h2>
+        <p class="about-subtitle">If you want to add more confidence to your image, you should visit us.</p>
+        <p class="about-desc">
+          We are a team that never stops at what has been achieved and are thirsty for changes. And when you fall into
+          the hands of our master, you will never be the same again. We are a team that is always "on the same wave"
+          with clients. Therefore, we are always ready to improve everyone who comes to us!
+        </p>
+        <button type="button" class="about-btn">Online-booking</button>
+      </section>
+      <!-- /**
+        |============================
+        | Section Price
+        |============================
+      */ -->
+      <section class="price">
+        <p class="price-uppertitle">Spend your time with the best masters</p>
+        <h2 class="price-title">Services and prices</h2>
+        <ul class="price-list list">
+          <li class="">
+            <ul class="price-list-left list">
+              <li class="price-left-item">Men’s haircut from 300 uah.</li>
+              <li class="price-left-item">Beard trim from 300 uah.</li>
+              <li class="price-left-item">Mustache trim from 200 uah.</li>
+              <li class="price-left-item">Straight razor shave from 200 uah.</li>
+            </ul>
+          </li>
+          <li class="">
+            <ul class="price-list-right list">
+              <li class="price-right-item">Trainee’s haircut from 50 uah.</li>
+              <li class="price-right-item">Haircut under the nozzle from 200 uah.</li>
+              <li class="price-right-item">Children’s haircut (0-12 y.o.) from 300 uah.</li>
+              <li class="price-right-item">Camouflage of gray hair from 200 uah.</li>
+            </ul>
+          </li>
+        </ul>
+        <button type="button" class="price-btn">Online-booking</button>
+      </section>
+      <!-- /** 
+        |============================ |
+         Section Benefits
+         |============================ 
+         */ -->
+      <section class="benefits">
+        <ul class="benefits-list list">
+          <li class="benefits-list-item">
+            <p class="benefits-item-customers">600<sup>&#43;</sup></p>
+            <p class="benefits-item-text">Satisfied customers per day</p>
+          </li>
+          <li class="benefits-list-item">
+            <p class="benefits-item-customers">50<sup>&#43;</sup></p>
+            <p class="benefits-item-text">Awards for excellent service</p>
+          </li>
+          <li class="benefits-list-item">
+            <p class="benefits-item-customers">20<sup>&#43;</sup></p>
+            <p class="benefits-item-text">Kyiv’s best professional barbers</p>
+          </li>
+          <li class="benefits-list-item">
+            <p class="benefits-item-customers">100<sup>&#43;</sup></p>
+            <p class="benefits-item-text">Gifts for regular customers</p>
+          </li>
+        </ul>
+        <p class="benefits-uppertitle">Old traditional school</p>
+        <h2 class="benefits-title">Why people come to us?</h2>
+        <p class="benefits-subtitle">
+          Only good things are said about us. But it's better to see and feel 1 time than read 10 times.
+        </p>
+      </section>
+      <!-- /**
+        |============================
+        | Section Team
+        |============================
+      */ -->
+
+      <section class="team">
+        <p class="team-uppertitle">For true enjoyers of the atmosphere</p>
+        <h2 class="team-title">Our barbers</h2>
+        <ul class="team-card-list list">
+          <li class="team-card-item">
+            <picture>
+              <source
+                media="(min-width: 1200px)"
+                srcset="./images/team/img-1_desk@1x.webp 1x, ./images/team/img-1_desk@2x.webp 2x"
+                type="image/webp" />
+              <source
+                media="(min-width: 1200px)"
+                srcset="./images/team/img-1_desk@1x.jpg 1x, ./images/team/img-1_desk@2x.jpg 2x"
+                type="image/jpg" />
+              <source
+                media="(min-width: 768px)"
+                srcset="./images/team/img-1_tab@1x.webp 1x, ./images/team/img-1_tab@2x.webp 2x"
+                type="image/webp" />
+              <source
+                media="(min-width: 768px)"
+                srcset="./images/team/img-1_tab@1x.jpg 1x, ./images/team/img-1_tab@2x.jpg 2x"
+                type="image/jpg" />
+              <source
+                media="(max-width: 767px)"
+                srcset="./images/team/img-1_mob@1x.webp 1x, ./images/team/img-1_mob@2x.webp 2x"
+                type="image/webp" />
+              <source
+                media="(max-width: 767px)"
+                srcset="./images/team/img-1_mob@1x.jpg 1x, ./images/team/img-1_mob@2x.jpg 2x"
+                type="image/jpg" />
+              <img src="./images/team/img-1_mob@1x.jpg" alt="John Smith" width="450" height="346"
+            /></picture>
+            <h3 class="team-card-title">John Smith</h3>
+            <p class="team-card-text">Extreme Barber</p>
+            <ul class="team-socials-list list">
+              <li class="team-social-item">
+                <a href="" class="socials-link" target="_blank" rel="noopener noreferrer" aria-label="social networks">
+                  <svg class="socials-icon" width="20" height="20">
+                    <use href="./images/svg/icons.svg#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-social-item">
+                <a href="" class="socials-link" target="_blank" rel="noopener noreferrer" aria-label="social networks">
+                  <svg class="socials-icon" width="20" height="20">
+                    <use href="./images/svg/icons.svg#twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-social-item">
+                <a href="" class="socials-link" target="_blank" rel="noopener noreferrer" aria-label="social networks">
+                  <svg class="socials-icon" width="20" height="20">
+                    <use href="./images/svg/icons.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-social-item">
+                <a href="" class="socials-link" target="_blank" rel="noopener noreferrer" aria-label="social networks">
+                  <svg class="socials-icon" width="20" height="20">
+                    <use href="./images/svg/icons.svg#linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="team-card-item">
+            <picture>
+              <source
+                media="(min-width: 1200px)"
+                srcset="./images/team/img-2_desk@1x.webp 1x, ./images/team/img-2_desk@2x.webp 2x"
+                type="image/webp" />
+              <source
+                media="(min-width: 1200px)"
+                srcset="./images/team/img-2_desk@1x.jpg 1x, ./images/team/img-2_desk@2x.jpg 2x"
+                type="image/jpg" />
+              <source
+                media="(min-width: 768px)"
+                srcset="./images/team/img-2_tab@1x.webp 1x, ./images/team/img-2_tab@2x.webp 2x"
+                type="image/webp" />
+              <source
+                media="(min-width: 768px)"
+                srcset="./images/team/img-2_tab@1x.jpg 1x, ./images/team/img-2_tab@2x.jpg 2x"
+                type="image/jpg" />
+              <source
+                media="(max-width: 767px)"
+                srcset="./images/team/img-2_mob@1x.webp 1x, ./images/team/img-2_mob@2x.webp 2x"
+                type="image/webp" />
+              <source
+                media="(max-width: 767px)"
+                srcset="./images/team/img-2_mob@1x.jpg 1x, ./images/team/img-2_mob@2x.jpg 2x"
+                type="image/jpg" />
+              <img src="./images/team/img-2_mob@1x.jpg" alt="Michele Doe" width="450" height="346"
+            /></picture>
+            <h3 class="team-card-title">Michele Doe</h3>
+            <p class="team-card-text">Extreme Barber</p>
+            <ul class="team-socials-list list">
+              <li class="team-social-item">
+                <a href="" class="socials-link" target="_blank" rel="noopener noreferrer" aria-label="social networks">
+                  <svg class="socials-icon" width="20" height="20">
+                    <use href="./images/svg/icons.svg#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-social-item">
+                <a href="" class="socials-link" target="_blank" rel="noopener noreferrer" aria-label="social networks">
+                  <svg class="socials-icon" width="20" height="20">
+                    <use href="./images/svg/icons.svg#twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-social-item">
+                <a href="" class="socials-link" target="_blank" rel="noopener noreferrer" aria-label="social networks">
+                  <svg class="socials-icon" width="20" height="20">
+                    <use href="./images/svg/icons.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-social-item">
+                <a href="" class="socials-link" target="_blank" rel="noopener noreferrer" aria-label="social networks">
+                  <svg class="socials-icon" width="20" height="20">
+                    <use href="./images/svg/icons.svg#linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="team-card-item">
+            <picture>
+              <source
+                media="(min-width: 1200px)"
+                srcset="./images/team/img-3_desk@1x.webp 1x, ./images/team/img-3_desk@2x.webp 2x"
+                type="image/webp" />
+              <source
+                media="(min-width: 1200px)"
+                srcset="./images/team/img-3_desk@1x.jpg 1x, ./images/team/img-3_desk@2x.jpg 2x"
+                type="image/jpg" />
+              <source
+                media="(min-width: 768px)"
+                srcset="./images/team/img-3_tab@1x.webp 1x, ./images/team/img-3_tab@2x.webp 2x"
+                type="image/webp" />
+              <source
+                media="(min-width: 768px)"
+                srcset="./images/team/img-3_tab@1x.jpg 1x, ./images/team/img-3_tab@2x.jpg 2x"
+                type="image/jpg" />
+              <source
+                media="(max-width: 767px)"
+                srcset="./images/team/img-3_mob@1x.webp 1x, ./images/team/img-3_mob@2x.webp 2x"
+                type="image/webp" />
+              <source
+                media="(max-width: 767px)"
+                srcset="./images/team/img-3_mob@1x.jpg 1x, ./images/team/img-3_mob@2x.jpg 2x"
+                type="image/jpg" />
+              <img src="./images/team/img-3_mob@1x.jpg" alt="Alan Black" width="450" height="346"
+            /></picture>
+            <h3 class="team-card-title">Alan Black</h3>
+            <p class="team-card-text">Extreme Barber</p>
+            <ul class="team-socials-list list">
+              <li class="team-social-item">
+                <a href="" class="socials-link" target="_blank" rel="noopener noreferrer" aria-label="social networks">
+                  <svg class="socials-icon" width="20" height="20">
+                    <use href="./images/svg/icons.svg#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-social-item">
+                <a href="" class="socials-link" target="_blank" rel="noopener noreferrer" aria-label="social networks">
+                  <svg class="socials-icon" width="20" height="20">
+                    <use href="./images/svg/icons.svg#twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-social-item">
+                <a href="" class="socials-link" target="_blank" rel="noopener noreferrer" aria-label="social networks">
+                  <svg class="socials-icon" width="20" height="20">
+                    <use href="./images/svg/icons.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="team-social-item">
+                <a href="" class="socials-link" target="_blank" rel="noopener noreferrer" aria-label="social networks">
+                  <svg class="socials-icon" width="20" height="20">
+                    <use href="./images/svg/icons.svg#linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <!-- /**
+        |============================
+        | Section Gallery
+        |============================
+      */ -->
+      <section class="gallery">
+        <p class="gallery-uppertitle">In Latin, "barba" means "beard"</p>
+        <h2 class="gallery-title">BarberShop gallery</h2>
+        <ul class="gallery-list">
+          <li class="gallery-item">
+            <picture>
+              <source
+                media="(min-width: 1200px)"
+                srcset="./images/gallery/img-1_desk@1x.webp 1x, ./images/gallery/img-1_desk@2x.webp 2x"
+                type="image/webp" />
+              <source
+                media="(min-width: 1200px)"
+                srcset="./images/gallery/img-1_desk@1x.jpg 1x, ./images/gallery/img-1_desk@2x.jpg 2x"
+                type="image/jpg" />
+              <source
+                media="(min-width: 768px)"
+                srcset="./images/gallery/img-1_tab@1x.webp 1x, ./images/gallery/img-1_tab@2x.webp 2x"
+                type="image/webp" />
+              <source
+                media="(min-width: 768px)"
+                srcset="./images/gallery/img-1_tab@1x.jpg 1x, ./images/gallery/img-1_tab@2x.jpg 2x"
+                type="image/jpg" />
+              <source
+                media="(max-width: 767px)"
+                srcset="./images/gallery/img-1_mob@1x.webp 1x, ./images/gallery/img-1_mob@2x.webp 2x"
+                type="image/webp" />
+              <source
+                media="(max-width: 767px)"
+                srcset="./images/gallery/img-1_mob@1x.jpg 1x, ./images/gallery/img-1_mob@2x.jpg 2x"
+                type="image/jpg" />
+              <img src="./images/gallery/img-1_mob@1x.jpg" alt="hairdresser-1" width="418" height="360"
+            /></picture>
+          </li>
+          <li class="gallery-item">
+            <picture>
+              <source
+                media="(min-width: 1200px)"
+                srcset="./images/gallery/img-2_desk@1x.webp 1x, ./images/gallery/img-2_desk@2x.webp 2x"
+                type="image/webp" />
+              <source
+                media="(min-width: 1200px)"
+                srcset="./images/gallery/img-2_desk@1x.jpg 1x, ./images/gallery/img-2_desk@2x.jpg 2x"
+                type="image/jpg" />
+              <source
+                media="(min-width: 768px)"
+                srcset="./images/gallery/img-2_tab@1x.webp 1x, ./images/gallery/img-2_tab@2x.webp 2x"
+                type="image/webp" />
+              <source
+                media="(min-width: 768px)"
+                srcset="./images/gallery/img-2_tab@1x.jpg 1x, ./images/gallery/img-2_tab@2x.jpg 2x"
+                type="image/jpg" />
+              <source
+                media="(max-width: 767px)"
+                srcset="./images/gallery/img-2_mob@1x.webp 1x, ./images/gallery/img-2_mob@2x.webp 2x"
+                type="image/webp" />
+              <source
+                media="(max-width: 767px)"
+                srcset="./images/gallery/img-2_mob@1x.jpg 1x, ./images/gallery/img-2_mob@2x.jpg 2x"
+                type="image/jpg" />
+              <img src="./images/gallery/img-2_mob@1x.jpg" alt="hairdresser-2" width="418" height="360"
+            /></picture>
+          </li>
+          <li class="gallery-item">
+            <picture>
+              <source
+                media="(min-width: 1200px)"
+                srcset="./images/gallery/img-3_desk@1x.webp 1x, ./images/gallery/img-3_desk@2x.webp 2x"
+                type="image/webp" />
+              <source
+                media="(min-width: 1200px)"
+                srcset="./images/gallery/img-3_desk@1x.jpg 1x, ./images/gallery/img-3_desk@2x.jpg 2x"
+                type="image/jpg" />
+              <source
+                media="(min-width: 768px)"
+                srcset="./images/gallery/img-3_tab@1x.webp 1x, ./images/gallery/img-3_tab@2x.webp 2x"
+                type="image/webp" />
+              <source
+                media="(min-width: 768px)"
+                srcset="./images/gallery/img-3_tab@1x.jpg 1x, ./images/gallery/img-3_tab@2x.jpg 2x"
+                type="image/jpg" />
+              <source
+                media="(max-width: 767px)"
+                srcset="./images/gallery/img-3_mob@1x.webp 1x, ./images/gallery/img-3_mob@2x.webp 2x"
+                type="image/webp" />
+              <source
+                media="(max-width: 767px)"
+                srcset="./images/gallery/img-3_mob@1x.jpg 1x, ./images/gallery/img-3_mob@2x.jpg 2x"
+                type="image/jpg" />
+              <img src="./images/gallery/img-3_mob@1x.jpg" alt="hairdresser-3" width="418" height="360"
+            /></picture>
+          </li>
+          <li class="gallery-item">
+            <picture>
+              <source
+                media="(min-width: 1200px)"
+                srcset="./images/gallery/img-4_desk@1x.webp 1x, ./images/gallery/img-4_desk@2x.webp 2x"
+                type="image/webp" />
+              <source
+                media="(min-width: 1200px)"
+                srcset="./images/gallery/img-4_desk@1x.jpg 1x, ./images/gallery/img-4_desk@2x.jpg 2x"
+                type="image/jpg" />
+              <source
+                media="(min-width: 768px)"
+                srcset="./images/gallery/img-4_tab@1x.webp 1x, ./images/gallery/img-4_tab@2x.webp 2x"
+                type="image/webp" />
+              <source
+                media="(min-width: 768px)"
+                srcset="./images/gallery/img-4_tab@1x.jpg 1x, ./images/gallery/img-4_tab@2x.jpg 2x"
+                type="image/jpg" />
+              <source
+                media="(max-width: 767px)"
+                srcset="./images/gallery/img-4_mob@1x.webp 1x, ./images/gallery/img-4_mob@2x.webp 2x"
+                type="image/webp" />
+              <source
+                media="(max-width: 767px)"
+                srcset="./images/gallery/img-4_mob@1x.jpg 1x, ./images/gallery/img-4_mob@2x.jpg 2x"
+                type="image/jpg" />
+              <img src="./images/gallery/img-4_mob@1x.jpg" alt="hairdresser-4" width="418" height="360"
+            /></picture>
+          </li>
+        </ul>
+      </section>
+      <!-- /**
+        |============================
+        | Section Booking
+        |============================
+      */ -->
+      <section></section>
+      <!-- /**
+        |============================
+        |  Section Contacts
+        |============================
+      */ -->
+
+      <section class="contacts">
+        <h2 class="contacts-title">Contacts</h2>
+        <address class="contacts-place">
+          <ul class="contacts-place-list list">
+            <li class="contacts-place-item">
+              <a href="" class="contacts-place-link link" target="_blank" rel="noopener noreferrer">
+                <svg class="" width="24" height="24">
+                  <use href="./images/svg/icons.svg#map-pin"></use>
+                </svg>
+                st. Vasylkivska, 7A <br />
+                Kiev, 08132</a
+              >
+            </li>
+            <li class="contacts-place-item">
+              <a href="tel:+380441111111" class="contacts-place-link link">
+                <svg class="contacts-icon" width="24" height="24">
+                  <use href="./images/svg/icons.svg#phone"></use>
+                </svg>
+                +38 044 111 11 11</a
+              >
+            </li>
+            <li class="contacts-place-item">
+              <a href="mailto:barbershop@email.com" class="contacts-place-link link">
+                <svg class="contacts-icon" width="24" height="24">
+                  <use href="./images/svg/icons.svg#mail"></use>
+                </svg>
+                barbershop@email.com</a
+              >
+            </li>
+          </ul>
+          <p class="contacts-text">Working hours</p>
+          <svg class="contacts-icon" width="" height="">
+            <use href=""></use>
+          </svg>
+          <p class="contacts-time-text">
+            Every day from <time datetime="09:00">9:00</time>to<time datetime="22:00">22:00</time>
+          </p>
+        </address>
+      </section>
+      <!-- /**
+        |============================
+        | Section Footer
+        |============================
+      */ -->
+      <footer class="footer">
+        <div class="container">
+          <p class="copyright">&#169; Copyright 2020</p>
+          <ul class="footer-media-list list">
+            <li class="footer-media-item">
+              <a href="" class="footer-media-link link" target="_blank" rel="noopener noreferrer">Instagram</a>
+            </li>
+            <li class="footer-media-item">
+              <a href="" class="footer-media-link link" target="_blank" rel="noopener noreferrer">Youtube</a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>

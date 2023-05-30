@@ -1,0 +1,255 @@
+:root {
+  --primary-font: "Open Sans", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+}
+/**
+  |============================
+  | Base
+  |============================
+*/
+body {
+  font-family: var(--primary-font);
+}
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  max-width: 428px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 720px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+/**
+  |============================
+  | Header
+  |============================
+*/
+.header {
+}
+.header-logo {
+}
+.logo-image {
+}
+.header-nav {
+}
+.header-nav-list {
+}
+.header-nav-item {
+}
+.header-nav-link {
+}
+.header-contact {
+}
+.header-btn {
+}
+
+/**
+  |============================
+  | Hero
+  |============================
+*/
+.hero {
+}
+.hero-list-socials {
+}
+.hero-item-social {
+}
+.hero-social-link {
+}
+.hero-uppertitle {
+}
+.hero-title {
+}
+.hero-subtitle {
+}
+.hero-btn-list {
+}
+.hero-btn-item {
+}
+.hero-btn-link {
+}
+
+/**
+  |============================
+  | About
+  |============================
+*/
+.about {
+}
+.about-list {
+}
+.about-item {
+}
+.about-img {
+}
+.about-uppertitle {
+}
+.about-title {
+}
+.about-subtitle {
+}
+.about-desc {
+}
+.about-btn {
+}
+/**
+  |============================
+  | Price
+  |============================
+*/
+.price {
+}
+.price-uppertitle {
+}
+.price-title {
+}
+.price-list {
+}
+.price-list-left {
+}
+.price-left-item {
+}
+.price-list-right {
+}
+.price-right-item {
+}
+.price-btn {
+}
+/**
+  |============================
+  | Benefits
+  |============================
+*/
+.benefits {
+}
+.benefits-list {
+}
+.benefits-list-item {
+}
+.benefits-item-customers {
+}
+.benefits-item-text {
+}
+.benefits-uppertitle {
+}
+.benefits-title {
+}
+.benefits-subtitle {
+}
+/**
+  |============================
+  | Team
+  |============================
+*/
+.team {
+}
+.team-uppertitle {
+}
+.team-title {
+}
+.team-card-list {
+}
+.team-card-item {
+}
+.team-card-title {
+}
+.team-card-text {
+}
+.team-socials-list {
+}
+.team-social-item {
+}
+.socials-link {
+}
+.socials-icon {
+}
+/**
+  |============================
+  | Gallery
+  |============================
+*/
+.gallery {
+}
+.gallery-uppertitle {
+}
+.gallery-title {
+}
+.gallery-list {
+}
+.gallery-item {
+}
+/**
+  |============================
+  | Booking
+  |============================
+*/
+
+/**
+  |============================
+  | Contacts
+  |============================
+*/
+.contacts {
+}
+.contacts-title {
+}
+.contacts-place {
+}
+.contacts-place-list {
+}
+.contacts-place-item {
+}
+.contacts-place-link {
+}
+.contacts-icon {
+}
+.contacts-text {
+}
+.contacts-time-text {
+}
+/**
+  |============================
+  | Footer
+  |============================
+*/
+.footer {
+}
+.container {
+}
+.copyright {
+}
+.footer-media-list {
+}
+.footer-media-item {
+}
+.footer-media-link {
+}
